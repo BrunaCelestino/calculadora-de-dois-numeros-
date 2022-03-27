@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="icon" href="img/calculadora.jpg" />
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+<body>
+    <header class= "cabecalho"> 
+    <h1 class="cabecalho__titulo"> CALCULADORA </h1>
+    </header>
+   
+
+    <p class = "paragrafo"> QUAL OPERAÇÃO VOCÊ DESEJA REALIZAR HOJE? </p>
+   
+   
+    <label for="primeiro-numero">INSIRA O PRIMEIRO NÚMERO:</label>
+    <input type="number" id="primeiro-numero"/>
+
+    <label for="segundo-numero">INSIRA O SEGUNDO NÚMERO:</label>
+    <input type="number" id="segundo-numero"/>
+    
+    <style>
+        .button-items {
+    display:inline-block;
+    }
+    .button{
+    text-align:center;
+    }
+    .span{
+        text-align: under;
+    }
+    </style>
+
+<div class="button">
+    <div class="button-items">
+    <button onclick="somar()"> + </button> 
+</div>
+<div class="button-items">
+    <button onclick="subtrair()"> - </button>
+</div>
+<div class="button-items">
+    <button onclick="multiplicar()"> x </button>
+</div>
+<div class="button-items">
+    <button onclick="dividir()"> ÷ </button>
+</div>
+<div class="button-items">
+    <button onclick="mod()"> MOD </button>
+</div>
+<div class="button-items">
+    <button onclick="potencia()"> ^ </button>
+</div>
+<div class="button-items">
+    <button onclick="porcentagem()"> % </button>
+</div>
+
+<div class="button-items">
+    <button onclick="raiz()"> √ </button>
+</div>
+
+
+<div class="span">
+<span id="resultado1">RESULTADO</span>
+</div>
+
+<div class ="span1">
+<span id="resultado2"></span>
+</div>
+
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>

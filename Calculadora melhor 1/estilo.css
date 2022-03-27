@@ -1,0 +1,116 @@
+* {
+    font-family: arial, verdana;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0;
+   
+
+}
+
+.paragrafo{
+    margin-top: 1cm;
+    font-family: monospace;
+    font: monospace;
+    color:rgba(12, 3, 90, 0.658);
+    margin: 0,0cm;
+    font-size: 28px;
+    align-items: center;
+    display: flex;
+    flex: 0;
+}
+
+
+.cabecalho {
+    padding: 1rem 0rem;
+    background: url("img/banner.png") center;
+    background-size: contain; 
+
+       
+  }
+  
+  .cabecalho__titulo {
+    color: beige;
+    font-size: 70px;
+    margin-left: 411px;
+    margin-right: 411px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+   
+    
+  }
+
+
+  
+body {
+    margin: 0,1mm;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex:1mm;
+    flex-direction: column;
+
+    
+
+}
+
+label{
+    font-family:monospace;
+    font: monospace;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 8px;
+    margin-block-start: 10px;
+    margin-block-end: 4px;
+
+}
+input{
+    font-family: 'Courier New', Courier, monospace;
+    font: 'Courier-New';
+    size: 10px;
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    block-size: 1.1cm;
+    width: 8cm;
+    border-radius: 5px;
+    
+
+
+}
+button {
+    font-family: fantasy;
+    font: fantasy;
+   block-size: 1cm;
+   width: 2cm;
+   background-color: #262064;
+   border-style:solid;
+   border-color: black;
+   border-width: 3px;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   font-weight: lighter;
+   font-size: 25px;
+   cursor: pointer;
+   border-radius: 10px;
+   margin: 0.5 rem 0 0 0;
+   margin-block-end: 18px;
+   margin-top: 0.7cm;
+  
+}
+
+span{ 
+    font-family:fantasy;
+    font: fantasy;
+    text-align:under;
+    font-size: 30px;
+    color: rgb(20, 41, 18);
+    
+    
+}
